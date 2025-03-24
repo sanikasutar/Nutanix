@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require('body-parser');
 const { handleWebhook } = require("./controllers/webhookController");
 const { handleNutanixAction } = require('./controllers/nutanixServicemock');
-require("./config/env"); // Load environment variables
+require("./config/env"); // Load environment varia
 
 const app = express();
 const PORT = process.env.PORT || 3000;
