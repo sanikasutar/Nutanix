@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+.env
+
+# GitHub Actions Workflow Temporary Files
+.github/workflows/*.temp
+
+# Deployment Keys
+nutanix_key
+nutanix_key.pub
+private_key.pem
+
+# Test coverage reports
+coverage/
